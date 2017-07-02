@@ -1,0 +1,60 @@
+//确定按钮
+.sign-btn {
+  display: block;
+  width: 93%;
+  padding: 0.1rem;
+  margin: 0 auto;
+  height: 0.88rem;
+  text-align: center;
+  color: #FFF;
+  background-color: #ff6054;
+  border: 1px solid #ff6054;
+  border-radius: 0.1rem;
+  font-size: 0.36rem;
+  outline: none;
+}
+
+button[disabled] {
+  background: #c4c4c4;
+  border-color: #FFF;
+}
+
+//全局隐藏
+.hide {
+  display: none !important;
+}
+
+//input
+input {
+  outline: none;
+}
+
+.last-child-hide {
+  > div:last-child {
+    display: none;
+  }
+}
+
+.inside-content-wrap {
+  position: relative;
+}
+
+.inside-content {
+  padding-top: 0.16rem;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  > div {
+    height: 100%;
+  }
+}
+
+//详情页公共样式
+.n-content {
+  h2 {
+    font-size: 0.32rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    box-sizing: border-box;
+    color: #353542;
+  }
+}

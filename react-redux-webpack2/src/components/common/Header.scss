@@ -1,0 +1,45 @@
+
+header {
+  > .header {
+    position: relative;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #383a42;
+    color: #FFF;
+    font-size: .36rem;
+    > .aside {
+      width: 25%;
+      box-sizing: border-box;
+    }
+    > .aside:last-child {
+      text-align: right;
+    }
+    > .title {
+      width: 50%;
+      text-align: center;
+      font-size: 18px;
+    }
+    .back {
+      padding-left: 15px;
+      display: flex;
+      i {
+        font-size: 28px;
+      }
+    }
+    .search {
+      display: inline-block;
+      padding-right: 15px;
+      i {
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+

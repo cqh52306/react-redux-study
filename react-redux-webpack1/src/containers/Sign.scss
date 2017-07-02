@@ -1,0 +1,81 @@
+
+/*审批意见*/
+.sign-cont {
+
+  .sign-item-box {
+    padding: 0 0.3rem;
+    background: #FFF;
+    font-size: 0.25rem;
+    align-items: center;
+    li {
+      display: flex;
+      min-height: 0.9rem;
+      box-sizing: border-box;
+      padding: 0.06rem 0;
+      align-items: center;
+      color: #666;
+      position: relative;
+    }
+    li:after {
+      content: '';
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      z-index: 9;
+      left: 0;
+      top: 0;
+      border-bottom: 1px solid #D7D7D7;
+      transform-origin: 0 0;
+      transform: scale(0.5, 0.5);
+      box-sizing: border-box
+    }
+    li:last-child:after {
+      display: none;
+    }
+  }
+
+  .sign-l {
+    width: 32%;
+  }
+  .sign-r {
+    flex: 1;
+    position: relative;
+    z-index: 999;
+    //border-left: 1px solid red;
+    .sign-input {
+      flex: 1;
+      width: 100%;
+      height: 0.6rem;
+      outline: none;
+      box-sizing: border-box;
+      //padding: 0 0.04rem;
+      appearance: none;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      background: #FFF;
+      border: none;
+
+    }
+    textarea {
+      width: 100%;
+      height: 1.78rem;
+      padding: 0.06rem 0;
+      border: none;
+      outline: none;
+      resize: none;
+      box-sizing: border-box;
+    }
+  }
+  .sign-icon {
+    i {
+      font-size: 0.3rem;
+      color: #C7C6CB;
+    }
+  }
+
+  .sign-btn {
+    margin-top: 0.6rem;
+  }
+
+}
