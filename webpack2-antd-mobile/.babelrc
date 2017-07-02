@@ -1,0 +1,26 @@
+{
+	"presets": [
+		[
+			"es2015",
+			{
+				"modules": false
+			}
+		],
+		"stage-2",
+		"react"
+	],
+	"plugins": [
+		"transform-class-properties",
+		"add-module-exports",
+		"transform-runtime",
+		[
+			"import",
+			[
+				{
+					"style": "css",
+					"libraryName": "antd-mobile"
+				}
+			]
+		]
+	]
+}
